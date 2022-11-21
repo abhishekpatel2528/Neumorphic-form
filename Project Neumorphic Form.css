@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+}
+img{
+    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+    height: 150px;
+    width: 150px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: auto;
+}
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: bold;
+    background: #ecf0f3;
+    padding-left: 20px;
+    height: 50px;
+    box-shadow:inset 5px 5px 10px #b1afaf, inset -5px -5px 8px  white;
+    border: 1px solid white;
+    text-align: left;
+}
+input[type="submit"]{
+    background-color: rgba(14, 115, 248, 0.692);
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    font-weight:1000;
+    border: none;
+    box-shadow: 3px 3px 5px grey, -3px -3px 5px white;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: aqua;
+    
+}
+h1{
+    color: rgb(25, 120, 228);
+    font-weight: bold;
+}
+p{
+    font-weight: bold;
+}
+.abhi{
+    border-radius: 20px;
+    padding: 40px 40px 50px 40px;
+    border:none;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.61), -5px -5px 20px 5px white
+}
+body{
+    padding-left: 140px;
+    padding-top: 80px;
+    padding-bottom: 0px;
+    padding-right: 140px;
+    align-items: center;
+    background-color: #cbced154;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
